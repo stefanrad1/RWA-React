@@ -66,8 +66,8 @@ export default class NavBar extends PureComponent {
                       color: '#55acee'
                     }} />
                   <Button id='twitter'>
-                    <Icon className='fa fa-twitter' />
-                    <span>Tweet</span>
+                    <Icon className='fa fa-facebook' />
+                    <span>Facebook</span>
                   </Button>
                 </Control>
               </Field>
