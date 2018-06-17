@@ -1,0 +1,26 @@
+@import '../node_modules/bulma/bulma.sass';
+
+html,
+body {
+    background-color: #fff;
+    font-family: 'PT Sans', sans-serif;
+    -webkit-font-smoothing: antialiased;
+}
+
+.content-white {
+    padding: 3rem !important;
+    background-color: white;
+}
+
+.my-nav {
+    padding: 0 3rem !important
+}
+
+.container-fullwidth {
+    width: 100% !important;
+    max-width: inherit !important;
+}
+
+#footer {
+    background-color: white;
+}

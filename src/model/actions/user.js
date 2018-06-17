@@ -1,0 +1,6 @@
+export const add = () => ({type: 'ADD_USER'})
+export const edit = (name, email) => ({type: 'EDIT_USER', name, email})
+export const params = (params) => ({type: 'PARAMS', params})
+export const editName = (name) => ({type: 'EDIT_NAME', name})
+export const editEMail = (email) => ({type: 'EDIT_EMAIL', email})
+export const mountUser = (user) => ({type: 'MOUNT_USER', user})

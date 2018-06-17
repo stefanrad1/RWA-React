@@ -1,0 +1,6 @@
+export const addUser = user => ({type: 'ADD_USER', user})
+export const editUser = user => ({type: 'EDIT_USER', user})
+export const getUser = user => ({type: 'GET_USER', user})
+export const deleteUser = user => ({type: 'DELETE_USER', user})
+export const concatUsers = users => ({type: 'CONCAT_USERS', users})
+export const setUsers = users => ({type: 'SET_USERS', users})

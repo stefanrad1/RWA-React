@@ -1,0 +1,44 @@
+{
+  "name": "reactredux-starter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index.html -d ./dist --public-url ./",
+    "fix": "standard --fix",
+    "lint": "standard --verbose | snazzy",
+    "server": "json-server db.json --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "autoprefixer": "^7.2.5",
+    "axios": "^0.17.1",
+    "babel-core": "^6.26.0",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "bloomer": "^0.6.3",
+    "bulma": "^0.6.2",
+    "jsdoc": "^3.5.5",
+    "json-server": "^0.12.1",
+    "md5": "^2.2.1",
+    "node-sass": "^4.7.2",
+    "parcel-bundler": "^1.4.1",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-router-dom": "^4.2.2",
+    "redux": "^3.7.2",
+    "snazzy": "^7.0.0",
+    "standard": "^10.0.3"
+  },
+  "standard": {
+    "ignore": [
+      "/public/",
+      "/docs/",
+      "/dist/",
+      "/.cache/"
+    ]
+  }
+}

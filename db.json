@@ -1,0 +1,24 @@
+{
+  "users": [
+    {
+      "id": "643cab6a759d264a9746b6137c15c5e4",
+      "name": "Stefan",
+      "email": "stefan@gmail.com"
+    },
+    {
+      "name": "Username 2",
+      "email": "username2@gmail.com",
+      "id": "11c59fe27e490175cbf5eb4b70e0609b"
+    },
+    {
+      "name": "New User",
+      "email": "newuser@gmail.com",
+      "id": "beea42f2d56d7af12e834d195f367d1d"
+    },
+    {
+      "name": "New User 2",
+      "email": "newuser2@gmail.com",
+      "id": "beea42f2d56d7af12e834d195f367d1t"
+    }
+  ]
+}
